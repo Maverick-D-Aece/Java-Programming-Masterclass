@@ -8,11 +8,12 @@ package variables;
  * Added some more variables in v1.3
  * Assigned one variable to another variable in v1.4
  * Added a final variable that has the value 1000 less than the total, in v1.5
+ * Added code to find the range of the "int" data type in v1.6
  * [One small IntelliJ IDEA hack that I learned today - write "sout" and Ctrl+Space
  * for println template]
  *
  * @author Maverick D. Aece
- * @version 1.5
+ * @version 1.6
  */
 public class Variables {
 
@@ -25,5 +26,10 @@ public class Variables {
         int lastNumber = 1000 - total;
         System.out.println("Value of the \"total\" variable = " + total);
         System.out.println("Value of the \"lastNumber\" variable = " + lastNumber);
+
+        // finding the range of the "int" data type
+        int min = Integer.MIN_VALUE;
+        int max = Integer.MAX_VALUE;
+        System.out.println("\nA variable of \"int\" data type can have values from " + min + " to " + max);
     }
 }
