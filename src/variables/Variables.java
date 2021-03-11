@@ -10,11 +10,12 @@ package variables;
  * Added a final variable that has the value 1000 less than the total, in v1.5
  * Added code to find the range of the "int" data type in v1.6
  * Busting and Boosting the max and min values respectively for "int" data type in v1.7
+ * Added a new way to initialize an integer variable in v1.8
  * [One small IntelliJ IDEA hack that I learned today - write "sout" and Ctrl+Space
  * for println template]
  *
  * @author Maverick D. Aece
- * @version 1.7
+ * @version 1.8
  */
 public class Variables {
 
