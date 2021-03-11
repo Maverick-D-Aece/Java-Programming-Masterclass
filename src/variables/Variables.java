@@ -39,5 +39,9 @@ public class Variables {
         System.out.println("BUSTED max = " + (max + 1));
         System.out.println("BOOSTED min = " + (min - 1));
 
+        // another way to define an "int" variable (especially those with more than 5 figures)
+        int largeNumber = 102_211_300;
+        System.out.println("Large Number = " + largeNumber);
+
     }
 }
