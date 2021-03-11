@@ -8,6 +8,8 @@ package variables;
  * Added some more variables in v1.3
  * Assigned one variable to another variable in v1.4
  * Added a final variable that has the value 1000 less than the total, in v1.5
+ * [One small IntelliJ IDEA hack that I learned today - write "sout" and Ctrl+Space
+ * for println template]
  *
  * @author Maverick D. Aece
  * @version 1.5
