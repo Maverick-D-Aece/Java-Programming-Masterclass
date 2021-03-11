@@ -2,7 +2,7 @@ package hello_world;
 
 /**
  * The code that breaks(?) your virginity for any programming language.
- * The afe-old, tried-and-tested Hello World!
+ * The age-old, tried-and-tested Hello World!
  *
  * @author Maverick D. Aece (Maverick-D-Aece)
  * @version 1.0
