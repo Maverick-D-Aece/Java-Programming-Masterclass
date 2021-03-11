@@ -7,9 +7,10 @@ package variables;
  * Added a complex expression in v1.2
  * Added some more variables in v1.3
  * Assigned one variable to another variable in v1.4
+ * Added a final variable that has the value 1000 less than the total, in v1.5
  *
  * @author Maverick D. Aece
- * @version 1.4
+ * @version 1.5
  */
 public class Variables {
 
@@ -19,6 +20,8 @@ public class Variables {
         int anotherNumber = 8;
         int anotherAnotherNumber = number - 10;
         int total = number + anotherNumber + anotherAnotherNumber;
+        int lastNumber = 1000 - total;
         System.out.println("Value of the \"total\" variable = " + total);
+        System.out.println("Value of the \"lastNumber\" variable = " + lastNumber);
     }
 }
