@@ -11,11 +11,12 @@ package variables;
  * Added code to find the range of the "int" data type in v1.6
  * Busting and Boosting the max and min values respectively for "int" data type in v1.7
  * Added a new way to initialize an integer variable in v1.8
+ * Added code to print the max and min value of a byte
  * [One small IntelliJ IDEA hack that I learned today - write "sout" and Ctrl+Space
  * for println template]
  *
  * @author Maverick D. Aece
- * @version 1.8
+ * @version 1.9
  */
 public class Variables {
 
@@ -44,5 +45,10 @@ public class Variables {
         int largeNumber = 102_211_300;
         System.out.println("Large Number = " + largeNumber);
 
+        // other primitive data members
+        byte minByte = Byte.MIN_VALUE;
+        byte maxByte = Byte.MAX_VALUE;
+        System.out.println("Minimum Byte = " + minByte);
+        System.out.println("Maximum Byte = " + maxByte);
     }
 }
