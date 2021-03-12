@@ -13,11 +13,12 @@ package variables;
  * Added a new way to initialize an integer variable in v1.8
  * Added code to print the max and min value of a byte v1.9
  * Added code to print the max and min values of a short, and long in v2.0
+ * Added examples and comments to show the concept of type casting in v2.1
  * [One small IntelliJ IDEA hack that I learned today - write "sout" and Ctrl+Space
  * for println template]
  *
  * @author Maverick D. Aece
- * @version 2.0
+ * @version 2.1
  */
 public class Variables {
 
@@ -61,5 +62,11 @@ public class Variables {
         long maxLong = Long.MAX_VALUE;
         System.out.println("Minimum Long = " + minLong);
         System.out.println("Maximum Long = " + maxLong);
+
+        // type casting when storing value of a bigger type inside a variable of smaller type
+        // Java by default considers the '2' in the following expression as an int and evaluates
+        // the expression into a result of an int, this is why casting was required
+        byte newByte = (byte)(minByte / 2);
+        short newShort = (short)(minShort / 2);
     }
 }
