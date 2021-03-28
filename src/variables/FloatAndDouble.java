@@ -36,6 +36,7 @@ public class FloatAndDouble {
                 "Kilograms = " + kilograms + "kg");
 
 
+        // for extremely precise calculations we use BigDecimal
     }
 
 }
