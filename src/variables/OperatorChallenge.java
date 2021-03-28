@@ -10,7 +10,7 @@ public class OperatorChallenge {
     public static void main(String[] args) {
         double d1 = 20.00; // step 1
         double d2 = 80.00; // step 2
-        double result = d1 + d2 * 100; // step 3
+        double result = (d1 + d2) * 100; // step 3
         result = result % 40.00; // step 4
 
         boolean b = (result == 0); // step 5
