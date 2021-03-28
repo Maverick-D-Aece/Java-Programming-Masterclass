@@ -2,9 +2,10 @@ package variables;
 
 /**
  * Different ways to use a char in v1.0
+ * Different boolean values in v1.1
  *
  * @author Maverick D. Aece
- * @version 1.0
+ * @version 1.1
  */
 
 public class CharAndBoolean {
@@ -16,6 +17,12 @@ public class CharAndBoolean {
         System.out.println("Copyright: " + copyRight);
         System.out.println("Unicode Char: " + myUnicodeChar);
 
-        boolean myBoolean = true;
+        // different boolean values
+        boolean trueValue = true;
+        boolean falseValue = false;
+
+        // typical way to use a boolean
+        boolean isOverTwentyOne = true;
+
     }
 }
