@@ -4,9 +4,10 @@ package variables;
  * Added code to print the max and min value of a float and a double in v1.0
  * Added type-casting to make the float value valid in v1.1
  * Added code that shows the precision of floats and doubles in v1.2
+ * Added solution code to the challenge 3E12 in v1.3
  *
  * @author Maverick D. Aece
- * @version 1.2
+ * @version 1.3
  */
 public class FloatAndDouble {
 
@@ -27,6 +28,14 @@ public class FloatAndDouble {
         System.out.println("\nInt = " + myInt);
         System.out.println("Float = " + myFloat);
         System.out.println("Double = " + myDouble);
+
+        // challenge - convert pounds into kilograms
+        double pounds = 50;
+        double kilograms = 0.45359237 * pounds;
+        System.out.println("\nPounds = " + pounds + " lb\n" +
+                "Kilograms = " + kilograms + "kg");
+
+
     }
 
 }
